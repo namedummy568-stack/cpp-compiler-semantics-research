@@ -1,0 +1,1 @@
+template<typename T> struct Outer { template<typename U> struct Inner { auto get_val(T t, U u) { return t + u; } }; };
